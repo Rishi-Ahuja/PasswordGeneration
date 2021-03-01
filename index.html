@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<script src="script.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<h1>Password Generator</h1>
+	<p id="rt"></p><br><br>
+  <Label for id="keyword"><b>Special Keyword</b></Label>
+  <input type="text" id="keyword"><br>
+  <Label for id="1"><b>UPPERCASE</b></Label>
+  <input type="checkbox" id="UP" value="1"><br>
+  <Label for id="2"><b>lowercase</b></Label>
+  <input type="checkbox" id="lp" value="2"><br>
+  <Label for id="3"><b>Numbers</b></Label>
+  <input type="checkbox" id="num" value="3"><br>
+  <Label for id="4"><b>Special Characters</b></Label>
+  <input type="checkbox" id="sc" value="4"><br><br>
+  <button type="button" onclick="generate()">Generate Password</button>
+</body>
+</html>
